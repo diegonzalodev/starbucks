@@ -1,0 +1,228 @@
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 2rem;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin-top: 2rem;
+    background-color: #F8F5F2;
+}
+
+section {
+    padding: 5rem 0 2rem 0;
+}
+
+footer {
+    margin-top: 3rem;
+    padding: 1rem 0;
+    background-color: #F8F5F2;
+}
+
+h2 {
+    margin-bottom: 2.5rem;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+p {
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Utilidades */
+.container {
+    width: 55%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.font-weight-800 {
+    font-weight: 800;
+}
+
+.redond {
+    border-radius: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+/* Header */
+.header-fixed {
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+.container-header {
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-header img {
+    width: 7.5rem;
+    height: 7.5rem;
+}
+
+.container-interaction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.container-interaction a:nth-child(1) {
+    border-radius: 4rem;
+    background-color: green;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: .8rem 1.3rem;
+}
+
+.container-interaction img {
+    width: 4.5rem;
+    height: 4.3rem;
+}
+
+.link-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.link-flex span {
+    font-size: 1.7rem;
+    font-weight: 800;
+}
+
+.container-nav {
+    border: .1rem solid #e1e1e1;
+    padding: 1.1rem 0;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav li {
+    margin-right: 5rem;
+}
+
+.nav a {
+    font-size: 1.6rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+
+/* Container banner */
+.container-banner {
+    margin-top: 4.5rem;
+}
+
+
+/* Container home */
+.container-home {
+    margin-top: 4rem;
+}
+
+.container-banner img,
+.container-home img {
+    width: 100%;
+}
+
+
+/* Main */
+.container-productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2.2rem;
+}
+
+.container-productos img {
+    width: 24.5rem;
+    height: 24.5rem;
+}
+
+.container-productos p {
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+
+/* Footer */
+.footer-logo {
+    margin: 1rem 0;
+}
+
+.footer-logo img {
+    width: 5rem;
+    height: 5rem;
+}
+
+.footer-navegation {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4rem;
+}
+
+.footer-navegation div {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.footer-nav h3 {
+    font-weight: 600;
+}
+
+.footer-nav a {
+    margin-top: 1.8rem;
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.container-icons {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.container-icons img {
+    width: 2.7rem;
+    height: 2.7rem;
+}
+
+.copyright {
+    font-size: 1.2rem;
+}
